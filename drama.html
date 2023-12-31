@@ -4,80 +4,117 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Drama emmy 2023</title>
+    <link rel="stylesheet" href="styles/style2.css">
 </head>
 <body>
-    <header>
-
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link"  href="index.html">Home</a>
+            <a class="cabecalho__menu__link"  href="comedia.html">Comédia</a>
+            <a class="cabecalho__menu__link"  href="miniseries.html">Minisérie e filme para TV</a>
+        </nav>
     </header>
-    <main>
-         <h1>Termômetro Emmy 2023</h1>
-        <a><h2>Melhor série de drama</h2></a>            
-        <div>
-        <a>
-            <fieldset>
-                <legend>1º</legend>
-                <img src="./assets/succession.jpg">
-                <p>Succession</p>
-                <p>HBO</p>
-            </fieldset>
-        </a>
-        <a>
-            <fieldset>
-                <legend>2º</legend>
-                <img src="./assets/the white lotus.jpg">
-                <p>The White Lotus</p>
-                <p>HBO</p>
-            </fieldset>
-        </a>
-        <a>
-            <fieldset>
-                <legend>3º</legend>
-                <img src="./assets/the last of us.webp">
-                <p>The Last of Us</p>
-                <p>HBO</p>
-            </fieldset>
-        </a>
-        <a>
-            <fieldset>
-                <legend>4º</legend>
-                <img src="./assets/Better call saul.jpg">
-                <p>Better Call Saul</p>
-                <p>AMC</p>
-            </fieldset>
-        </a>
-        <a>
-            <fieldset>
-                <legend>5º</legend>
-                <img src="./assets/the crown.png">
-                <p>The Crown</p>
-                <p>Netflix</p>
-            </fieldset>
-        </a>
-        <a>
-            <fieldset>
-                <legend>6º</legend>
-                <img src="./assets/andor.jpg">
-                <p>Andor</p>
-                <p>Disney+</p>
-            </fieldset>
-        </a>
-        <a>
-            <fieldset>
-                <legend>7º</legend>
-                <img src="./assets/yellowjackets.jpg">
-                <p>Yellowjackets</p>
-                <p>Showtime</p>
-            </fieldset>
-        </a>
-        <a>
-            <fieldset>
-                <legend>8º</legend>
-                <img src="./assets/house of the dragon.jpg">
-                <p>House of the Dragon</p>
-                <p>HBO</p>
-            </fieldset>
-        </a>
-        </div>
+    <main class="apresentacao">
+         <h1 class="apresentacao__titulo">Termômetro Emmy 2023</h1>
+         <section class="apresentacao__secao">
+            <a class="apresentacao__subtitulo" href="index.html"><h2>Melhor série de drama</h2></a>            
+            <div class="apresentacao__caixa">
+                <a class="apresentacao__caixa__link" href="index.html">
+                    <p class="apresentacao__caixa__link__numero">1</p>
+                    <img src="./assets/succession.jpg" class="apresentacao__caixa__link__imagem">
+                    <p class="apresentacao__caixa__link__titulo">Succession</p>
+                    <p class="apresentacao__caixa__link__subtitulo">HBO</p>
+                </a>
+                <a class="apresentacao__caixa__link" href="index.html">
+                    <p class="apresentacao__caixa__link__numero">2</p>
+                    <img src="./assets/the white lotus.jpg" class="apresentacao__caixa__link__imagem">
+                    <p class="apresentacao__caixa__link__titulo">The White Lotus</p>
+                    <p class="apresentacao__caixa__link__subtitulo">HBO</p>
+                </a>    
+                <a class="apresentacao__caixa__link" href="index.html">
+                    <p class="apresentacao__caixa__link__numero">3</p>  
+                    <img src="./assets/the last of us.webp" class="apresentacao__caixa__link__imagem">
+                    <p class="apresentacao__caixa__link__titulo">The Last of Us</p>
+                    <p class="apresentacao__caixa__link__subtitulo">HBO</p>
+                </a>
+                <a class="apresentacao__caixa__link" href="index.html">
+                    <p class="apresentacao__caixa__link__numero">4</p>
+                    <img src="./assets/Better call saul.jpg" class="apresentacao__caixa__link__imagem">
+                    <p class="apresentacao__caixa__link__titulo">Better Call Saul</p>
+                    <p class="apresentacao__caixa__link__subtitulo">AMC</p>
+                </a>
+                <a class="apresentacao__caixa__link" href="index.html">
+                    <p class="apresentacao__caixa__link__numero">5</p>
+                    <img src="./assets/the crown.png" class="apresentacao__caixa__link__imagem">
+                    <p class="apresentacao__caixa__link__titulo">The Crown</p>
+                    <p class="apresentacao__caixa__link__subtitulo">Netflix</p>
+                </a>
+                <a class="apresentacao__caixa__link" href="index.html">
+                    <p class="apresentacao__caixa__link__numero">6</p>
+                    <img src="./assets/andor.jpg" class="apresentacao__caixa__link__imagem">
+                    <p class="apresentacao__caixa__link__titulo">Andor</p>
+                    <p class="apresentacao__caixa__link__subtitulo">Disney+</p>
+                </a>
+                <a class="apresentacao__caixa__link" href="index.html">
+                    <p class="apresentacao__caixa__link__numero">7</p>  
+                    <img src="./assets/yellowjackets.jpg" class="apresentacao__caixa__link__imagem">
+                    <p class="apresentacao__caixa__link__titulo">Yellowjackets</p>
+                    <p class="apresentacao__caixa__link__subtitulo">Showtime</p>        
+                </a>
+                <a class="apresentacao__caixa__link" href="index.html">
+                    <p class="apresentacao__caixa__link__numero">8</p>
+                    <img src="./assets/house of the dragon.jpg" class="apresentacao__caixa__link__imagem">
+                    <p class="apresentacao__caixa__link__titulo">House of the Dragon</p>
+                    <p class="apresentacao__caixa__link__subtitulo">HBO</p>
+                </a>
+            </div>
+        </section>
+        <section class="apresentacao__secao">
+            <a class="apresentacao__subtitulo" href="index.html"><h2>Melhor Atriz em Série de Drama</h2></a>            
+            <div class="apresentacao__caixa">
+                <a class="apresentacao__caixa__link" href="index.html">
+                    <p class="apresentacao__caixa__link__numero">1</p>
+                    <img src="./assets/sarah snook.jpeg" class="apresentacao__caixa__link__imagem">
+                    <p class="apresentacao__caixa__link__titulo">Sarah Snook</p>
+                    <p class="apresentacao__caixa__link__subtitulo">Succession</p>
+                    <p class="apresentacao__caixa__link__subtitulo">HBO</p>
+                </a>
+                <a class="apresentacao__caixa__link" href="index.html">
+                    <p class="apresentacao__caixa__link__numero">2</p>
+                    <img src="./assets/Bella Ramsey.jpeg" class="apresentacao__caixa__link__imagem">
+                    <p class="apresentacao__caixa__link__titulo">Bella Ramsey</p>
+                    <p class="apresentacao__caixa__link__subtitulo">The Last of Us</p>
+                    <p class="apresentacao__caixa__link__subtitulo">HBO</p>
+                </a>    
+                <a class="apresentacao__caixa__link" href="index.html">
+                    <p class="apresentacao__caixa__link__numero">3</p>  
+                    <img src="./assets/Melanie Lynskey.jpg" class="apresentacao__caixa__link__imagem">
+                    <p class="apresentacao__caixa__link__titulo">Melanie Lynskey</p>
+                    <p class="apresentacao__caixa__link__subtitulo">Yellowjackets</p>
+                    <p class="apresentacao__caixa__link__subtitulo">Showtime</p>
+                </a>
+                <a class="apresentacao__caixa__link" href="index.html">
+                    <p class="apresentacao__caixa__link__numero">4</p>
+                    <img src="./assets/Sharon Horgan.jpg" class="apresentacao__caixa__link__imagem">
+                    <p class="apresentacao__caixa__link__titulo">Sharon Horgan</p>
+                    <p class="apresentacao__caixa__link__subtitulo">Bad Sisters</p>
+                    <p class="apresentacao__caixa__link__subtitulo">Apple TV+</p>
+                </a>
+                <a class="apresentacao__caixa__link" href="index.html">
+                    <p class="apresentacao__caixa__link__numero">5</p>
+                    <img src="./assets/Keri Russell.jpg" class="apresentacao__caixa__link__imagem">
+                    <p class="apresentacao__caixa__link__titulo">Keri Russell</p>
+                    <p class="apresentacao__caixa__link__subtitulo">The diplomat</p>
+                    <p class="apresentacao__caixa__link__subtitulo">Netflix</p>
+                </a>
+                <a class="apresentacao__caixa__link" href="index.html">
+                    <p class="apresentacao__caixa__link__numero">6</p>
+                    <img src="./assets/Elisabeth Moss.jpeg" class="apresentacao__caixa__link__imagem">
+                    <p class="apresentacao__caixa__link__titulo">Elisabeth Moss</p>
+                    <p class="apresentacao__caixa__link__subtitulo">The Handmaid's Tale</p>
+                    <p class="apresentacao__caixa__link__subtitulo">Hulu</p>
+            </div>
+        </section>
     </main>
 </body>
 </html>
