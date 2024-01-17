@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Yeseva+One&display=swap');
 
 :root {
     --cor-primaria: #1B1A17;
@@ -6,6 +6,7 @@
     --cor-terciaria: #F0A500;
 
     --fonte-primaria: 'Open Sans', sans-serif;
+    --fonte-numeros: 'Yeseva One', serif;
 }
 
 * {
@@ -44,7 +45,7 @@ body {
     padding: 3% 7%;
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 30px;
 }
 
 .apresentacao__titulo {
@@ -54,6 +55,12 @@ body {
     color: white;
     justify-content: center;
     display: flex;
+}
+
+.apresentacao__secao {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 .apresentacao__subtitulo{
@@ -79,24 +86,42 @@ body {
 
 .apresentacao__caixa__link__numero {
     text-align: center;
-    font-family: var(--fonte-primaria);
-    font-weight: 600;
+    font-family: var(--fonte-numeros);
+    font-size: 1rem;
 }
 
 .apresentacao__caixa__link__imagem {
     width: 90%;
     height: 160px;
     border-radius: 1rem;
+    object-fit: cover; 
+}
+
+.apresentacao__caixa__link__imagem2 {
+    width: 90%;
+    height: 160px;
+    border-radius: 1rem;
+    object-fit: cover; 
+}
+
+.apresentacao__caixa__link__imagem3 {
+    width: 90%;
+    height: 160px;
+    border-radius: 1rem;
+    /* object-fit: cover;  */
 }
 
 .apresentacao__caixa__link__titulo {
     text-align: center;
     font-family: var(--fonte-primaria);
     font-weight: 600;
+    font-size: 1rem;
 }
 
 .apresentacao__caixa__link__subtitulo {
     text-align: center;
     font-family: var(--fonte-primaria);
     font-weight: 600;
+    font-size: 0.8rem;
 }
+
